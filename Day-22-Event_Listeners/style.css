@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    list-style-type:none;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+
+.test_click,.second_box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color:white;
+}
+
+.test_click{
+    width:200px;
+    height:200px;
+    background-color:springgreen;
+    box-shadow: 3px 3px 5px 3px black; 
+}
+
+
+.second_box{
+    background-color: blueviolet;
+    width:200px;
+    height:200px;
+    box-shadow: 3px 3px 5px 3px black; 
+}
+
+
+
+
+
+/*BMI*/
+
+input{
+    display:block;
+    margin-top:10px;
+    padding:5px;
+}
+

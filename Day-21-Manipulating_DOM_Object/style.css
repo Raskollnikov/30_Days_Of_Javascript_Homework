@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    list-style-type: none;
+}
+
+body{
+    width:100%;
+    height:100vh;
+
+}
+.test{
+    width:100px;
+    height: 100px;
+    background:springGreen;
+}
+
+.container{
+    border:1px solid black;
+    width: 70%;
+    margin:100px auto;
+}
